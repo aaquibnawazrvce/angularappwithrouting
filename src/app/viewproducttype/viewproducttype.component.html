@@ -1,0 +1,6 @@
+<p>viewproducttype works!</p>
+
+<div *ngFor="let producttype of productTypes">
+
+    <button (click)="clickedType(producttype.id)"> {{producttype.id}} -> {{producttype.name}}</button>
+</div>
