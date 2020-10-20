@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AddproducttypeComponent } from './addproducttype/addproducttype.component';
 import { NotconfiguredComponent } from './notconfigured/notconfigured.component';
-import { ProducttypeComponent } from './producttype/producttype.component';
 import { ViewproducttypeComponent } from './viewproducttype/viewproducttype.component';
 
 const routes: Routes = [
@@ -21,4 +20,4 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
 export const routingCmpArray = [AddproducttypeComponent, ViewproducttypeComponent,
-   NotconfiguredComponent, ViewproducttypedetailComponent];
+   NotconfiguredComponent];
