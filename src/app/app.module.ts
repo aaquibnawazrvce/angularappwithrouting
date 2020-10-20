@@ -3,11 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule, routingCmpArray } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProducttypeComponent } from './producttype/producttype.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    routingCmpArray
+    routingCmpArray,
+    ProducttypeComponent
   ],
   imports: [
     BrowserModule,
