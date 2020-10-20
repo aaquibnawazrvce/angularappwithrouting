@@ -7,7 +7,7 @@ import { ViewproducttypeComponent } from './viewproducttype/viewproducttype.comp
 const routes: Routes = [
   {path: '', redirectTo: '/addptype', pathMatch: 'full'},
   {path: 'addptype', component: AddproducttypeComponent},
-  {path: 'viewptype', component: ViewproducttypeComponent}
+  {path: 'viewptype', component: ViewproducttypeComponent},
   {path: '**', component: NotconfiguredComponent}
 ];
 
